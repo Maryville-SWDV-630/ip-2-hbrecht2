@@ -27,8 +27,4 @@ class CheckingAccount:
             print('\nNew Account Balance: \n${0:.2f}\n'.format(self.__balance))
     
         
-myAcc = CheckingAccount ('hannahTaylor', '123 spring st', '121212000', '10')
-myAcc.getBalance()
-myAcc.deposit ()
-myAcc.getBalance()
-myAcc.withdraw()
+
